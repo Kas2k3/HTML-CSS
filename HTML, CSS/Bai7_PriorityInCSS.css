@@ -1,3 +1,27 @@
 h1 {
     color: red;
 }
+/* 
+
+Universal
+*{
+    color: red;
+}
+li {
+    color: black;
+}   */
+
+
+/* 
+Inherited
+html {
+    color: violet
+}
+li {
+    color: red !important;
+
+}
+li {
+    color: red;
+
+}    */
