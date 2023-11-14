@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kas - Shop</title>
+        <meta charset="utf-8">
+
+        <style>
+            html, body {
+                margin: 0;
+            }
+            .box {
+                width: calc(20% + 50px);
+                height: 120px;
+                background: rgb(90, 90, 202);
+            }
+            
+            .box::after {
+                content: "Xin chào các bạn";
+            }
+
+            a::after {
+                content: "("attr(href)")";
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box" data-title = "Đây là box màu xanh tím"></div>
+        <a href="https://cdn.myanimelist.net/images/about_me/ranking_items/8812472-53a6af4d-c96a-4476-bb1f-4ad70a2dcadb.jpg?t=1697247474">Chitanda Eru</a>
+
+        <h1> CSS function</h1>
+        <ul>
+            <li>var()</li>
+            <li>linear-gradient()</li>
+            <li>rgba()</li>
+            <li>rgb()</li>
+        </ul>
+    </body>
+</html>
