@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kas - Shop</title>
+        <meta charset="utf-8">
+
+        <style>
+            html, body {
+                margin: 0;
+            }
+            .box {
+                width: calc(20% + 50px);
+                height: 120px;
+                background: rgb(90, 90, 202);
+            }
+            
+        /* before
+            .box::before {
+                content: "";
+                display: block;
+                width: 50px;
+                height: 50px;
+                background-color: #fff;
+            }
+
+            .box::after {
+                content: "";
+                display: block;
+                width: 50px;
+                height: 50px;
+                background-color: #fff;
+            }
+          */
+        
+        /* first-letter */
+            h1::first-letter{
+                font-size: 50px;
+            }
+
+        /* first-letter
+            h1::first-line{
+                font-size: 50px;
+            } */
+        
+        /* selection */
+            h1::selection {
+                background-color: violet;
+                color: #fff;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="box"></div>
+
+        <h1> CSS pseudo-elements <br /> Dòng thứ 2 </h1>
+        <ul>
+            <li>::before</li>
+            <li>::after</li>
+            <li>::first-letter</li>
+            <li>::first-line</li>
+            <li>::selection</li>
+        </ul>
+    </body>
+</html>
